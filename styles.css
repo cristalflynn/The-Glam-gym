@@ -1,0 +1,309 @@
+body{
+    background-image: url("images/elena-kloppenburg--fkLJ9Ws5XQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+}
+a:hover{
+    background-color: pink;
+}
+footer{
+    margin-top: 30px;
+}
+h5{
+    color: pink;
+}
+.class-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 77%;
+}
+
+.main-tile-diemension {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 165px;
+    margin-top: 10px;
+}
+
+.class {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-right: 200px;
+    width: 90%;
+    flex-grow: 1;
+    background-color: black;
+}
+
+
+.btn{
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: #fff;
+  background: tomato;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+}
+.home{
+  display: flex;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .home-content{
+  width: 50%;
+  padding: 2rem;
+}
+.home h3{
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+  color: white;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.home .home-image{
+  width: 50%;
+}
+.home .home-image img{
+  width: 100%;
+  height: 80%;
+  border-radius: 100%;
+}
+
+
+/*sign up*/
+  
+  .signup-box {
+    margin-top: 100px;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .sign1 {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+  }
+  
+  /*members*/
+
+  .wrapper{
+    width: 330px;
+    padding: 2rem 0 1rem 0;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  .again{
+    font-size: 2rem;
+    color: #07001f;
+  }
+  .welcome-back{
+    margin-bottom: 1.7rem;
+  }
+  .members, .members1{
+    width: 85%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .recover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.2rem 1.7rem 0 0;
+  }
+  .recover a{
+    text-decoration: none;
+    color: #07001f;
+  }
+  .member{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 85%;
+    background: tomato;
+    color: #fff;
+    cursor: pointer;
+  }
+  .member:hover{
+    background: rgba(122, 30, 30, 0.767);
+  }
+  .or{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  .icons i{
+    color: #07001f;
+    padding: 00.8rem 1.5rem;
+    border-radius: 10px;
+    margin-left: .9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+  }
+  .icons i:hover{
+    color: #fff !important;
+    background: #07001f;
+    transition: 1s;
+  }
+  .icons i:first-child{
+    color: green;
+  }
+  .icons i:last-child{
+    color: blue;
+  }
+  .not-member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+  }
+  .not-member a{
+    color: tomato;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  /*about us*/
+  .container-teacher{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+  }
+  .card-image {
+    background-color: #49c1a2;
+    height: 220px;
+    margin-bottom: 16px;
+    background-size:cover;
+  }
+  .car-1{
+    background-image: url("./images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg");
+  }
+.car-2{
+    background-image: url("./images/miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg");
+}
+.car-3{
+    background-image: url("./images/male\ teacher.avif");
+}
+.card, .teacher{
+padding: 10px;
+}
+.card, .teacher-info{
+padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
